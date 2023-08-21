@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# AGI Fallacies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application that showcases common misconceptions (fallacies) about Artificial General Intelligence (AGI) and their counterarguments.
 
-## Available Scripts
+## Design Principles
 
-In the project directory, you can run:
+### Quick Rebuttal to Misconceptions
+The primary intent of this site is to serve as a quick and accessible rebuttal to the myriad of low-effort posts and debates online that dismiss the genuine risks associated with AGI. 
 
-### `npm start`
+### Clarity and Conciseness
+Each fallacy is presented clearly and concisely, allowing users to quickly grasp the core argument and its counter. The design avoids unnecessary jargon, aiming to be understandable even for those not deeply versed in AI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Evidence-Based Arguments
+While the site is designed for quick consumption, the counterarguments are rooted in evidence and well-reasoned logic. It's not just about refuting misconceptions but doing so with substance.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### User-Centric Design
+The responsive design ensures accessibility across devices, recognizing the diverse ways users might access the content. The layout is intuitive, ensuring that users can navigate the fallacies with ease.
 
-### `npm test`
+### Encouraging Constructive Debate
+By presenting both the fallacy and its counter, the site encourages users to engage in more informed and constructive debates about AGI. The goal isn't to end discussions but to elevate them.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Lists AGI fallacies with descriptions.
+- Provides counterarguments for each fallacy.
+- Responsive design for various screen sizes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app is deployed at [agi-fallacies.com](https://agi-fallacies.com/).
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+We welcome contributions! If you find a bug or have a feature request, please open an issue. If you'd like to contribute code, please fork the repository and create a pull request.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License. See the `LICENSE.md` file for more information.
