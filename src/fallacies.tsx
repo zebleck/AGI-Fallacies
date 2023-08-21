@@ -1,8 +1,8 @@
 const fallacies = [
 	{
 	  name: "Cooperation Fallacy",
-	  description: "AGI will not harm us but will instead cooperate because smart humans generally cooperate with dumber humans.",
-	  counter: "Intelligence does not necessarily correlate with benevolence. The motivations and goals of an AGI would be determined by its programming and learning, not by an inherent sense of morality."
+	  description: "An AGI will inherently be cooperative with us, drawing parallels to how intelligent humans often cooperate with those less intelligent.",
+	  counter: "Human cooperation has evolved from complex social and survival dynamics. AGI, not being a product of natural evolution, wouldn't inherently adopt human-like cooperation unless explicitly designed to do so."
 	},
 	{
 	  name: "Control Fallacy",
@@ -12,7 +12,7 @@ const fallacies = [
 	{
 	  name: "Uniqueness Fallacy",
 	  description: "Humans are unique, so AGI will never truly replicate or surpass human intelligence.",
-	  counter: "While humans are unique in many ways, it doesn't mean that an AGI couldn't achieve a level of intelligence or capability that surpasses human abilities in certain domains."
+	  counter: "While humans are unique in many ways, it doesn't mean that an AGI couldn't achieve a level of intelligence or capability that surpasses human abilities in most domains."
 	},
 	{
 	  name: "Benevolence Fallacy",
@@ -43,11 +43,6 @@ const fallacies = [
 	  name: "Isolation Fallacy",
 	  description: "We can test AGI in isolated environments to ensure it's safe before releasing it into the real world.",
 	  counter: "An AGI's behavior in an isolated environment might not be indicative of its behavior in more complex, real-world scenarios."
-	},
-	{
-	  name: "Superiority Fallacy",
-	  description: "Humans will always have an edge over AGI in areas like creativity, empathy, and intuition.",
-	  counter: "It's uncertain which domains of intelligence or capability AGI might excel in, especially as it continues to learn and adapt."
 	}
   ];
 
