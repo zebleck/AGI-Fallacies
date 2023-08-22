@@ -1,6 +1,6 @@
 # AGI Fallacies
 
-A web application that showcases common misconceptions (fallacies) about Artificial General Intelligence (AGI) and their counterarguments.
+A web application that showcases common misconceptions (fallacies) when discussing the risks of Artificial General Intelligence (AGI) and their counterarguments.
 
 ## Design Principles
 
@@ -14,21 +14,25 @@ Each fallacy is presented clearly and concisely, allowing users to quickly grasp
 While the site is designed for quick consumption, the counterarguments are rooted in evidence and well-reasoned logic. It's not just about refuting misconceptions but doing so with substance.
 
 ### User-Centric Design
-The responsive design ensures accessibility across devices, recognizing the diverse ways users might access the content. The layout is intuitive, ensuring that users can navigate the fallacies with ease.
+To enable responsive design across devices, we use Bootstrap 5.
 
 ### Encouraging Constructive Debate
 By presenting both the fallacy and its counter, the site encourages users to engage in more informed and constructive debates about AGI. The goal isn't to end discussions but to elevate them.
 
+## Setup
 
-## Features
+It's as simple as:
 
-- Lists AGI fallacies with descriptions.
-- Provides counterarguments for each fallacy.
-- Responsive design for various screen sizes.
+```
+git clone https://github.com/zebleck/AGI-Fallacies.git
+cd AGI-Fallacies
+npm install
+npm run start
+```
 
 ## Deployment
 
-The app is deployed at [agi-fallacies.com](https://agi-fallacies.com/).
+The main branch is deployed automatically at [agi-fallacies.com](https://agi-fallacies.com/).
 
 ## Contributing
 

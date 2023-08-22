@@ -1,9 +1,21 @@
 .footer {
 	line-height: 60px;
 	background-color: #f5f5f5 !important;
-  }
+}
   
-  .text-muted {
+.text-muted {
 	color: #6c757d !important;
-  }
+}
   
+a.text-muted {
+	text-decoration: none;
+	color: #6c757d; /* This color matches the .text-muted class in Bootstrap */
+}
+  
+a.text-muted:hover {
+	text-decoration: underline;
+}
+  
+.separator {
+  margin: 0 10px;
+}
