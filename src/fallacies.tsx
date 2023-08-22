@@ -9,17 +9,18 @@ import {
   AiFillStar,
   AiFillThunderbolt,
   AiFillTool,
-  AiOutlineGlobal
+  AiOutlineGlobal,
+  AiFillCrown
 } from 'react-icons/ai';
 
 const fallacies = [
   {
-    name: 'Cooperation Fallacy',
+    name: 'Corporate Control Fallacy',
     description:
-      'An AGI will inherently be cooperative with us, drawing parallels to how intelligent humans often cooperate with those less intelligent.',
+      'Pausing AI development is just a corporate strategy to consolidate power, not for safety or ethics.',
     counter:
-      "Human cooperation has evolved from complex social and survival dynamics. AGI, not being a product of natural evolution, wouldn't inherently adopt human-like cooperation unless explicitly designed to do so.",
-    icon: <AiFillStar />
+      'While companies do have strategic interests, many experts and organizations advocate for careful AI development due to genuine technical, ethical, and safety concerns.',
+    icon: <AiFillCrown />
   },
   {
     name: 'Control Fallacy',
@@ -99,6 +100,14 @@ const fallacies = [
     counter:
       'While eschatological beliefs are historical, AGI concerns are based on technical and ethical considerations, not just cultural fears.',
     icon: <AiOutlineGlobal />
+  },
+  {
+    name: 'Cooperation Fallacy',
+    description:
+      'An AGI will inherently be cooperative with us, drawing parallels to how intelligent humans often cooperate with those less intelligent.',
+    counter:
+      "Human cooperation has evolved from complex social and survival dynamics. AGI, not being a product of natural evolution, wouldn't inherently adopt human-like cooperation unless explicitly designed to do so.",
+    icon: <AiFillStar />
   }
 ];
 
