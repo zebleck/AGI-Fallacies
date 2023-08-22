@@ -10,8 +10,8 @@ const App: React.FC = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Container className="mt-5 mb-auto">
-        <h1 className="text-center mb-5 text-primary">AGI Fallacies</h1>
-        <p className="text-center mb-4">
+        <h1 className="text-center mb-4 text-primary">AGI Fallacies</h1>
+        <p className="text-center mb-5">
           Artificial General Intelligence (AGI) represents a significant leap in
           the field of artificial intelligence. However, discussions about its
           potential risks often encounter various misconceptions. This page
