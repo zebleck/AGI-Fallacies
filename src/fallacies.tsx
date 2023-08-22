@@ -67,6 +67,13 @@ const fallacies = [
       'AI will never surpass humans because it lacks consciousness and the depth of human experience.',
     counter:
       "Achieving high levels of functionality and intelligence doesn't necessarily require consciousness. An AGI can outperform humans in many tasks without being conscious in the human sense."
+  },
+  {
+    name: 'Eschatological Fallacy',
+    description:
+      'Concerns about AGI are just modern versions of age-old apocalyptic fears.',
+    counter:
+      'While eschatological beliefs are historical, AGI concerns are based on technical and ethical considerations, not just cultural fears.'
   }
 ];
 
