@@ -23,7 +23,9 @@ const App: React.FC = () => {
             <Col md={4} key={index} className="mb-4 d-flex align-items-stretch">
               <Card className="h-100 shadow-lg border-0 w-100">
                 <Card.Header className="text-primary">
-                  <Card.Title className="m-0">{fallacy.name}</Card.Title>
+                  <Card.Title className="m-0">
+                    {fallacy.icon} {fallacy.name}
+                  </Card.Title>
                 </Card.Header>
                 <Card.Body>
                   <p>

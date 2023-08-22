@@ -26,7 +26,8 @@ module.exports = {
     'react/display-name': 'off',
     '@typescript-eslint/no-explicit-any': ['off'],
     'prettier/prettier': ['warn', { endOfLine: 'auto' }],
-    '@typescript-eslint/no-var-requires': 'off'
+    '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }]
   },
   globals: {
     process: true
