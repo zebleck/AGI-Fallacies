@@ -8,10 +8,12 @@ const Footer: React.FC = () => {
   return (
     <footer className="footer mt-auto py-3 bg-light">
       <div className="container text-center">
-        <span className="text-muted">© {currentYear} AGI Fallacies. All rights reserved.</span>
+        <span className="text-muted">
+          © {currentYear} AGI Fallacies. All rights reserved.
+        </span>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
